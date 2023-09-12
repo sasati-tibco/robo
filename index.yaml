@@ -3,7 +3,7 @@ entries:
   artifactory-ha:
   - apiVersion: v2
     appVersion: 7.63.7
-    created: "2023-09-12T10:44:12.068767274+05:30"
+    created: "2023-09-12T11:11:41.876637334+05:30"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -27,6 +27,6 @@ entries:
     - https://github.com/jfrog/charts
     type: application
     urls:
-    - https://github.com/sasati-tibco/robo/raw/gh-pages/artifactory-ha-107.63.7.tgz
+    - https://sasati-tibco.github.io/robo/artifactory-ha-107.63.7.tgz
     version: 107.63.7
-generated: "2023-09-12T10:44:12.060629789+05:30"
+generated: "2023-09-12T11:11:41.867061282+05:30"
