@@ -27,6 +27,6 @@ entries:
     - https://github.com/jfrog/charts
     type: application
     urls:
-    - https://github.com/sasati-tibco/robo/blob/gh-pages
+    - https://github.com/sasati-tibco/robo/raw/gh-pages/artifactory-ha-107.63.7.tgz
     version: 107.63.7
 generated: "2023-09-12T10:44:12.060629789+05:30"
