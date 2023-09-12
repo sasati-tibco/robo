@@ -3,7 +3,7 @@ entries:
   artifactory-ha:
   - apiVersion: v2
     appVersion: 7.63.7
-    created: "2023-09-11T18:48:31.128875253+05:30"
+    created: "2023-09-12T10:44:12.068767274+05:30"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -29,4 +29,4 @@ entries:
     urls:
     - https://github.com/sasati-tibco/robo/blob/gh-pages
     version: 107.63.7
-generated: "2023-09-11T18:48:31.105068142+05:30"
+generated: "2023-09-12T10:44:12.060629789+05:30"
