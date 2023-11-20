@@ -1,0 +1,15 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: sleep
+  "helm.sh/hook": post-install, post-upgrade
+spec:
+  template:
+    spec:
+      containers:
+      - name: nginx
+        image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
+        command: ["/bin/bash", "-c", "sleep 70"]
+      restartPolicy: Never
+  backoffLimit: 0
+
