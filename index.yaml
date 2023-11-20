@@ -3,7 +3,7 @@ entries:
   artifactory-ha:
   - apiVersion: v2
     appVersion: 7.63.7
-    created: "2023-11-20T08:04:19.286734851Z"
+    created: "2023-11-20T08:35:41.102324025Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -32,12 +32,12 @@ entries:
   dummy:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-11-20T08:04:19.287100899Z"
+    created: "2023-11-20T08:35:41.102693458Z"
     description: A Helm chart for Kubernetes
-    digest: 44b294e10ff5ab93b62c7a7d7e78239898ef85dec5c5d253daf6f49b52f23d20
+    digest: 458b888eb19e4a4f5d1415cdec103ba2b787b9ebadd238f74d7645e732846878
     name: dummy
     type: application
     urls:
     - https://raw.githubusercontent.com/sasati-tibco/robo/gh-pages/dummy-0.1.0.tgz
     version: 0.1.0
-generated: "2023-11-20T08:04:19.276742473Z"
+generated: "2023-11-20T08:35:41.092284157Z"
